@@ -1,0 +1,18 @@
+body{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #4a148c ;
+    height: 10vh;
+    width: 100%;
+}
+
+aside{
+    background-color: #1de9b6;
+    
+}
