@@ -99,7 +99,6 @@ header img {
     overflow-y: hidden;
     stroke-width: 0px;
     text-size-adjust: 100% ;
-    vertical-align: middle;
     width: 16px;    
 }
 .campana {
@@ -108,7 +107,7 @@ header img {
     max-width: 27px;
     max-height: 27px;
 }
-.coment  {
+.coment {
     position: absolute;
     margin-left: 2400px;
     max-width: 27px;
