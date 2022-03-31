@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*aqui va el header style*/
+.container-header {
+    padding: 3px;
+    margin: 0.5%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.container-logo img {
+    width: 24px;
+    transform: scale(3.0);
+}
+
+.binicio  {
+    font-weight: bold;
+    color: white;
+    background-color: #000000;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    box-sizing: border-box;
+    padding: 17px;
+    flex-basis: auto;
+    font-size: 12px;
+    height: 42px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    min-width: 60px;
+    text-size-adjust: 100%;
+    border: none;
+}
+.bhoy {
+        font-weight: bold;
+        color: white;
+        background-color: #000000;
+        border-bottom-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        box-sizing: border-box;
+        padding: 17px;
+        flex-basis: auto;
+        font-size: 12px;
+        height: 42px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        min-width: 60px;
+        text-size-adjust: 100%;
+        border: none;
+    }
+    .container-botones button:nth-child(1){
+        margin-left: 10px;
+        height: 50px;
+        width: 80px;
+        font-size: 15px;   
+    }
+    .container-botones button:nth-child(2) {
+        margin-left: 10px;
+        opacity: 0.3;
+        height: 50px;
+        width: 80px;
+        font-size: 15px;
+    }
+    .container-botones button:nth-child(2):hover {
+        opacity: 1;
+    }
+    .searchbox {
+        width: 75%;
+    }
+    #search-box {
+        margin-left: 20px;
+        height: 25px;
+        width: 100%;
+        border-radius: 24px;
+        padding: 10px;
+        background-color: #e9e9e9;
+        border: 0px;
+    }
+    .iconosmas {
+        margin-left: 20px;
+        height: 30px;
+    }
+    
+    .container-header img {
+        width: 20px;
+        margin-left: 40px;
+    }
+    .grid-imagenes {
+        padding: 20px 100px 20px 100px;
+        columns: 5 50px;
+        column-gap: 20px;
+    }
+    .grid-imagenes img {
+        height: 100%;
+        width: 100%;
+        border-radius: 25px;
+    }
+    .grid-imagenes img:hover {
+        filter: brightness(40%);
+    }
+    
+    #campana {
+        width: 25px; 
+    }
+    #comentario {
+        width: 25px; 
+    }
+    #menudes {
+        height: 25px;   
+    }
+    footer {
+        display: flex;
+        color: white;
+        background-color: rgb(165, 165, 165);
+        width: 100%;
+        height: 50%;
+        align-items: center;
+    }
+    footer div {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    footer div i {
+        margin-left: 2%;
+    }
+
